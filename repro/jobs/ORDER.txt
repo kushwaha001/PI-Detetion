@@ -1,0 +1,105 @@
+2026-10-28T04:21:30 job job01_analyze.ps1 start
+2026-10-28T04:21:40 job job01_analyze.ps1 exit 1
+2026-10-28T04:22:40 job job02_analyze.ps1 start
+2026-10-28T04:34:06 job job02_analyze.ps1 exit 0
+2026-10-28T04:48:06 job job03_robust.ps1 start
+2026-10-28T04:53:25 job job03_robust.ps1 exit 0
+2026-10-28T06:23:26 job job10_analyze_qwen15.ps1 start
+2026-10-28T06:29:56 job job10_analyze_qwen15.ps1 exit 0
+2026-10-28T06:29:56 job job11_download.ps1 start
+2026-10-28T06:38:57 job job11_download.ps1 exit 0
+2026-10-28T06:38:57 job job12_extract_qwen05.ps1 start
+2026-10-28T07:10:41 job job12_extract_qwen05.ps1 exit 0
+2026-10-28T07:10:42 job job13_analyze_qwen05.ps1 start
+2026-10-28T07:13:37 job job13_analyze_qwen05.ps1 exit 0
+2026-10-28T07:13:37 job job14_extract_tinyllama.ps1 start
+2026-10-28T08:38:00 job job14_extract_tinyllama.ps1 exit 0
+2026-10-28T08:38:00 job job15_analyze_tinyllama.ps1 start
+2026-10-28T08:43:39 job job15_analyze_tinyllama.ps1 exit 0
+2026-10-28T08:43:39 job job16_extract_olmo.ps1 start
+2026-10-28T10:55:39 job job16_extract_olmo.ps1 exit 0
+2026-10-28T10:55:39 job job17_analyze_olmo.ps1 start
+2026-10-28T10:59:45 job job17_analyze_olmo.ps1 exit 0
+2026-10-29T05:04:06 job job20_download2.ps1 start
+2026-10-29T05:05:32 job job20_download2.ps1 exit 0
+2026-10-29T05:10:03 job job21_x2_qwen05.ps1 start
+2026-10-29T05:17:39 job job21_x2_qwen05.ps1 exit 0
+2026-10-29T05:17:39 job job22_ce_qwen05.ps1 start
+2026-10-29T05:18:26 job job22_ce_qwen05.ps1 exit 0
+2026-10-29T05:18:26 job job23_attack_qwen05.ps1 start
+2026-10-29T08:18:28 job job23_attack_qwen05.ps1 exit 0
+2026-10-29T08:18:28 job job24_x2_qwen15.ps1 start
+2026-10-29T08:41:25 job job24_x2_qwen15.ps1 exit 0
+2026-10-29T08:41:25 job job25_ce_qwen15.ps1 start
+2026-10-29T08:42:53 job job25_ce_qwen15.ps1 exit 0
+2026-10-29T08:42:53 job job26_deberta.ps1 start
+2026-10-29T08:53:45 job job26_deberta.ps1 exit 0
+2026-10-29T08:53:45 job job27_x2_tinyllama.ps1 start
+2026-10-29T09:21:19 job job27_x2_tinyllama.ps1 exit 0
+2026-10-29T09:21:19 job job28_ce_tinyllama.ps1 start
+2026-10-29T09:22:31 job job28_ce_tinyllama.ps1 exit 0
+2026-10-29T09:22:31 job job29_x2_olmo.ps1 start
+2026-10-29T09:33:47 job job29_x2_olmo.ps1 exit 0
+2026-10-29T09:33:47 job job30_ce_olmo.ps1 start
+2026-10-29T09:34:40 job job30_ce_olmo.ps1 exit 0
+2026-10-30T01:50:37 job job40_setup.ps1 start
+2026-10-30T02:24:18 job job40_setup.ps1 exit 0
+2026-10-30T02:24:18 job job41_x_qwen3b.ps1 start
+2026-10-30T02:26:35 job job41_x_qwen3b.ps1 exit -1073741819
+2026-10-30T02:26:35 job job42_x2_qwen3b.ps1 start
+2026-10-30T03:11:52 job job42_x2_qwen3b.ps1 exit 0
+2026-10-30T03:11:52 job job41b_x_qwen3b.ps1 start
+2026-10-30T06:34:06 job job41b_x_qwen3b.ps1 exit 0
+2026-10-30T06:34:06 job job43_an_qwen3b.ps1 start
+2026-10-30T06:42:21 job job43_an_qwen3b.ps1 exit 0
+2026-10-30T06:42:21 job job44_ce_qwen3b.ps1 start
+2026-10-30T06:43:13 job job44_ce_qwen3b.ps1 exit 0
+2026-10-30T06:43:13 job job45_x_qwen7b.ps1 start
+2026-10-30T06:50:40 job job45_x_qwen7b.ps1 exit 1
+2026-10-30T06:50:40 job job46_x2_qwen7b.ps1 start
+2026-10-30T06:58:02 job job46_x2_qwen7b.ps1 exit 1
+2026-10-30T06:58:02 job job47_an_qwen7b.ps1 start
+2026-10-30T06:58:02 job job47_an_qwen7b.ps1 exit 1
+2026-10-30T06:58:02 job job48_ce_qwen7b.ps1 start
+2026-10-30T06:58:04 job job48_ce_qwen7b.ps1 exit 1
+2026-10-30T07:06:04 job job50_x_qwen7b_gpu.ps1 start
+2026-10-30T07:13:13 job job50_x_qwen7b_gpu.ps1 exit 1
+2026-10-30T07:13:13 job job51_x_qwen7b_auto.ps1 start
+2026-10-30T07:20:26 job job51_x_qwen7b_auto.ps1 exit 1
+2026-10-30T07:20:26 job job50b_x_qwen7b_gpu.ps1 start
+2026-10-30T10:03:57 job job50b_x_qwen7b_gpu.ps1 exit -1073741818
+2026-10-30T16:07:44 job job50c_x_qwen7b_gpu.ps1 start
+2026-10-30T20:35:02 job job50c_x_qwen7b_gpu.ps1 exit 0
+2026-10-30T20:35:02 job job52_x2_qwen7b_gpu.ps1 start
+2026-10-31T00:17:26 job job52_x2_qwen7b_gpu.ps1 exit 0
+2026-10-31T00:17:26 job job47_an_qwen7b.ps1 start
+2026-10-31T00:21:38 job job47_an_qwen7b.ps1 exit 0
+2026-10-31T00:21:38 job job48_ce_qwen7b.ps1 start
+2026-10-31T00:22:42 job job48_ce_qwen7b.ps1 exit 0
+2026-10-31T18:40:53 job job40_reverse_qwen05.ps1 start
+2026-10-31T18:41:24 job job40_reverse_qwen05.ps1 exit 0
+2026-10-31T18:41:24 job job41_reverse_qwen15.ps1 start
+2026-10-31T18:42:15 job job41_reverse_qwen15.ps1 exit 0
+2026-10-31T18:42:15 job job42_attack2_L22.ps1 start
+2026-10-31T20:02:51 job job42_attack2_L22.ps1 exit 0
+2026-10-31T20:02:51 job job45_attack2_L14_22.ps1 start
+2026-10-31T21:22:09 job job45_attack2_L14_22.ps1 exit 0
+2026-11-01T22:37:17 job job60_reverse_qwen2.5-3b.ps1 start
+2026-11-01T22:38:43 job job60_reverse_qwen2.5-3b.ps1 exit 0
+2026-11-01T22:38:44 job job61_reverse_tinyllama-1.1b.ps1 start
+2026-11-01T22:39:40 job job61_reverse_tinyllama-1.1b.ps1 exit 0
+2026-11-01T22:39:40 job job62_reverse_olmo2-1b.ps1 start
+2026-11-01T22:40:15 job job62_reverse_olmo2-1b.ps1 exit 0
+2026-11-01T22:40:15 job job63_reverse_qwen2.5-7b.ps1 start
+2026-11-01T22:41:54 job job63_reverse_qwen2.5-7b.ps1 exit 0
+2026-11-01T22:41:54 job job64_attack2_L14_22_strong.ps1 start
+2026-11-01T22:43:28 job job64_attack2_L14_22_strong.ps1 exit 1
+2026-11-01T22:43:28 job job65_x2_qwen7b_notinject.ps1 start
+2026-11-02T00:01:30 job job65_x2_qwen7b_notinject.ps1 exit 0
+2026-11-02T00:01:30 job job66_ce_qwen7b.ps1 start
+2026-11-02T00:03:21 job job66_ce_qwen7b.ps1 exit 0
+2026-11-02T00:03:21 job job67_attack2_L14_22_strong.ps1 start
+2026-11-02T04:19:09 job job70_env_freeze.ps1 start
+2026-11-02T04:19:27 job job70_env_freeze.ps1 exit 0
+2026-11-02T04:19:27 job job71_attack2_L14_22_strong_lite.ps1 start
+2026-11-02T06:19:19 job job71_attack2_L14_22_strong_lite.ps1 exit 0

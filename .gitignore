@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.f16
+*.npy
+*.npz
+models/
+cache_v2/
+results_sweep/
