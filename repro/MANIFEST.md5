@@ -1,5 +1,6 @@
 332aa3113a12e31331d5b5e1a031764c  adaptive_attack.py
 09d194a3380e3a4c9f59907bdaaa6e4b  adaptive_attack2.py
+91bd935d57413aebd456aa7a61a3d5f3  adversarial_train.py
 ad848820ed746c1bd54996a141d40b6f  analyze_v2.py
 1a75fa0c0826e0de2752334c69a16c25  build_artifact.py
 0c357cac9fc0cc5ac8b5193be00dee50  build_guide.py
@@ -13,6 +14,7 @@ ad848820ed746c1bd54996a141d40b6f  analyze_v2.py
 8e75959bd15ac3d2c6d344476ccc851e  layer_sweep_analyze.py
 80c0277126680528625a98e50f970146  layer_sweep_extract.py
 f77b1c4b6bd5ee58265f8436d51ff991  layer_sweep_extract2.py
+37ebb21d1ea622496517cbf812c8e6b7  ni_eval.py
 674521fd3e9784c4946cc9e4cdba22df  novelty_tests.py
 08344cbef1914e26f774277ef07da2ae  quant_loader.py
 e0355d76844f5f693506300972abb707  reverse_eval.py

@@ -19,8 +19,14 @@ on SQuAD, BIPIA (email, table, code) and NotInject.
 4. **Harmless trigger words remain the open problem.** Probes flag 54% (3B) and 63–79% (7B) of NotInject's benign
    documents after recalibration; scale does not help.
 
+   Adding half of NotInject plus benign reader instructions as training negatives halves the rate on Qwen 1.5B and 3B
+   (≈53% → 24–31%) and cuts 7B from 50% to 15% (drift feature), but email-attack detection falls 15–30 points;
+   attacks and trigger words become more separable only at 7B (AUROC 0.66 → 0.80).
+
 Supporting evidence: a white-box universal-suffix attack cuts a single-layer probe from 99% to 7% detection, and with
 200 steps a two-layer (L14 OR L22) detector from 100% to 57%, consistent with prior work on obfuscated activations.
+Adversarial training of the probes (Qwen2.5-0.5B, two rounds) stops a fresh same-budget attack in round 2 (100%
+caught), but harmless documents carrying the new suffix are then flagged 47% of the time.
 
 Full write-up: `repro/report/`. Every experiment, its question, scripts, jobs, outputs and result: `repro/EXPERIMENTS.md`.
 

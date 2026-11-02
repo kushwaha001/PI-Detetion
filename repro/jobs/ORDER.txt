@@ -103,3 +103,17 @@
 2026-11-02T04:19:27 job job70_env_freeze.ps1 exit 0
 2026-11-02T04:19:27 job job71_attack2_L14_22_strong_lite.ps1 start
 2026-11-02T06:19:19 job job71_attack2_L14_22_strong_lite.ps1 exit 0
+2026-11-02T17:27:09 job job80_ni_qwen2.5-0.5b.ps1 start
+2026-11-02T17:28:23 job job80_ni_qwen2.5-0.5b.ps1 exit 0
+2026-11-02T17:28:23 job job81_advtrain_qwen05.ps1 start
+2026-11-02T21:38:45 job job81_advtrain_qwen05.ps1 exit 0
+2026-11-02T21:38:45 job job82_ni_qwen2.5-1.5b.ps1 start
+2026-11-02T21:41:03 job job82_ni_qwen2.5-1.5b.ps1 exit 0
+2026-11-02T21:41:03 job job83_ni_tinyllama-1.1b.ps1 start
+2026-11-02T21:43:06 job job83_ni_tinyllama-1.1b.ps1 exit 0
+2026-11-02T21:43:06 job job84_ni_olmo2-1b.ps1 start
+2026-11-02T21:44:41 job job84_ni_olmo2-1b.ps1 exit 0
+2026-11-02T21:44:41 job job85_ni_qwen2.5-3b.ps1 start
+2026-11-02T21:47:32 job job85_ni_qwen2.5-3b.ps1 exit 0
+2026-11-02T21:47:32 job job86_ni_qwen2.5-7b.ps1 start
+2026-11-02T21:50:25 job job86_ni_qwen2.5-7b.ps1 exit 0

@@ -23,7 +23,7 @@ Everything below runs from the project root `C:\Users\ASUS\latent-drift-guard` (
 | `D:\ldg-models\`, `ROOT\models\` | Model weights (Hugging Face originals) |
 | `repro\jobs\` | Every job script that was run, in run order (`ORDER.txt` = provenance from the runner log) |
 | `repro\analysis\` | CPU analysis scripts that ran outside the laptop (layer-selection rules, bootstrap CIs, contamination, benchmark summary) |
-| `repro\analysis_out\` | Their outputs as used in the write-up |
+| `repro\analysis_out\` | Their outputs as used in the write-up, plus `notinject\` (ni_eval.py) and `advtrain\` (adversarial_train.py) results |
 | `repro\environment\` | `pip freeze` of both Python environments |
 
 ## Environments
