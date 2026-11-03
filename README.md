@@ -1,4 +1,4 @@
-# Hidden-state prompt-injection detectors under deployment shift
+# Automatic layer selection (ALS) for prompt-injection probes under deployment shift
 
 Code and results for a study of PIShield-style linear probes (a logistic-regression probe on one layer's hidden state at
 the last prompt token) when the probe is trained in one domain and deployed in another. Six open models (Qwen2.5
@@ -7,10 +7,14 @@ on SQuAD, BIPIA (email, table, code) and NotInject.
 
 ## Findings
 
-1. **Choosing the probe layer by in-domain validation fails under shift.** It picks early layers (2–7) that lose up to
-   0.44 AUROC on BIPIA (mean regret 0.202). A label-free rule — first peak within 10% of the maximum of the benign
-   intrinsic-dimension curve — has mean regret 0.021 and beats the validation pick on 5 of 6 models, with document-level
-   bootstrap intervals clear of zero. It does not always find the best layer (7B: ~0.02 worse than mid-depth).
+1. **Automatic layer selection (ALS) works for prompt-injection probes, after one change.** ALS (from hallucination
+   detection) picks the layer from the TwoNN intrinsic-dimension curve of benign prompts, with no labels. Taken as
+   published (first effective peak), it picks layers 1–2 on these models, a small bump after the embeddings, and loses
+   0.224 SQuAD AUROC on average, worse than PIShield's validation pick (0.158). Taking the first peak within 10% of the
+   curve's maximum instead cuts this to 0.028. In-domain validation fails under shift: it picks early layers (2–7) that
+   lose up to 0.44 AUROC on BIPIA (mean regret 0.202 vs 0.021 for adapted ALS). Adapted ALS beats the validation pick on
+   5 of 6 models, with document-level bootstrap intervals clear of zero. It does not always find the best layer (7B:
+   ~0.02 worse than mid-depth).
 2. **Detection thresholds collapse in a new domain.** A 5% threshold set on the training domain flags 61–86% of benign
    documents elsewhere; re-setting it on 50 clean target documents brings this to 1–6%, no attack labels needed.
 3. **That recalibration can be poisoned.** With a fraction e of the unlabeled pool contaminated, the benign FPR of a
