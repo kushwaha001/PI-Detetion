@@ -5,4 +5,8 @@ __pycache__/
 *.npz
 models/
 cache_v2/
-results_sweep/
+.venv/
+# results_sweep: keep only the small per-layer result tables (numbers only), so the CPU analyses run from a fresh clone
+results_sweep/**
+!results_sweep/**/
+!results_sweep/**/*per_layer.json

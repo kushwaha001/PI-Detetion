@@ -1,0 +1,11 @@
+# Extraction and attacks (GPU). Install torch first from the CUDA index (see SETUP.md), then:
+#   pip install -r requirements-gpu.txt
+# Versions are those of the environment every result was produced in (repro/environment/gpu_env_ldg-venv.txt).
+-r requirements-cpu.txt
+transformers==4.52.3
+accelerate==1.14.0
+bitsandbytes==0.50.2
+tokenizers==0.21.4
+safetensors==0.7.0
+huggingface_hub==0.36.2
+langchain-core>=1.2   # only to unpickle the Pune Metro chunks (extract_v2.load_metro)

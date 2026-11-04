@@ -53,6 +53,9 @@ Full write-up: `repro/report/`. Every experiment, its question, scripts, jobs, o
 
 ## Reproducing
 
+**Setup and step-by-step run instructions: [`SETUP.md`](SETUP.md).** The ALS analysis reruns from this repository alone on CPU in a few minutes.
+
+
 See `repro/README.md` for step-by-step commands. In short: run the extraction jobs (GPU) to write hidden states,
 then the analysis jobs (CPU), then `repro/analysis/*.py`. The hidden-state arrays (several GB) and the source-domain
 records are not in this repository; the extraction scripts regenerate the arrays from the models and records.
