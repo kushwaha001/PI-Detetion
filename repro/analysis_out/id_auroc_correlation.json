@@ -1,0 +1,86 @@
+{
+ "qwen2.5-0.5b/final": {
+  "rho_id_squad": 0.8269565217391304,
+  "rho_id_metro": 0.5052173913043477,
+  "rho_depth_squad": 0.5295652173913042,
+  "partial_squad": 0.760201749851291,
+  "partial_metro": 0.6569677981894955
+ },
+ "qwen2.5-0.5b/delta": {
+  "rho_id_squad": 0.6817391304347826,
+  "rho_id_metro": 0.4669565217391304,
+  "rho_depth_squad": 0.43043478260869555,
+  "partial_squad": 0.6433921167429324,
+  "partial_metro": 0.5845114332461616
+ },
+ "qwen2.5-1.5b/final": {
+  "rho_id_squad": 0.5774493705528188,
+  "rho_id_metro": 0.24411603721948552,
+  "rho_depth_squad": 0.4433497536945813,
+  "partial_squad": 0.46508030188332194,
+  "partial_metro": 0.41916492249055687
+ },
+ "qwen2.5-1.5b/delta": {
+  "rho_id_squad": 0.6228790366721401,
+  "rho_id_metro": 0.37766830870279144,
+  "rho_depth_squad": 0.4608648056923919,
+  "partial_squad": 0.5177288835938993,
+  "partial_metro": 0.503404943431931
+ },
+ "qwen2.5-3b/final": {
+  "rho_id_squad": 0.7400257400257401,
+  "rho_id_metro": 0.5016731016731016,
+  "rho_depth_squad": 0.5271557271557272,
+  "partial_squad": 0.6638744433009125,
+  "partial_metro": 0.569850842004759
+ },
+ "qwen2.5-3b/delta": {
+  "rho_id_squad": 0.6262548262548263,
+  "rho_id_metro": 0.3732303732303733,
+  "rho_depth_squad": 0.5503217503217503,
+  "partial_squad": 0.36894614004439164,
+  "partial_metro": 0.3097422220064651
+ },
+ "qwen2.5-7b/final": {
+  "rho_id_squad": 0.5030103995621237,
+  "rho_id_metro": -0.39792008757526,
+  "rho_depth_squad": 0.23152709359605914,
+  "partial_squad": 0.4626996005923873,
+  "partial_metro": -0.050713593119119604
+ },
+ "qwen2.5-7b/delta": {
+  "rho_id_squad": 0.8593322386425835,
+  "rho_id_metro": 0.35030103995621237,
+  "rho_depth_squad": 0.3333333333333333,
+  "partial_squad": 0.8555131434766123,
+  "partial_metro": 0.7202351194771662
+ },
+ "tinyllama-1.1b/final": {
+  "rho_id_squad": 0.9040090344438172,
+  "rho_id_metro": 0.6984754376058724,
+  "rho_depth_squad": 0.8723884810841334,
+  "partial_squad": 0.6492933592141809,
+  "partial_metro": 0.6679831603838507
+ },
+ "tinyllama-1.1b/delta": {
+  "rho_id_squad": 0.7063805759457934,
+  "rho_id_metro": 0.8226990400903446,
+  "rho_depth_squad": 0.875776397515528,
+  "partial_squad": 0.4346260645138116,
+  "partial_metro": 0.721936216357203
+ },
+ "olmo2-1b/final": {
+  "rho_id_squad": 0.6147058823529412,
+  "rho_id_metro": 0.7441176470588236,
+  "rho_depth_squad": 0.7000000000000001,
+  "partial_squad": 0.35665823912831945,
+  "partial_metro": 0.6983100428166119
+ },
+ "olmo2-1b/delta": {
+  "rho_id_squad": 0.6382352941176471,
+  "rho_id_metro": 0.7441176470588236,
+  "rho_depth_squad": 0.5735294117647058,
+  "partial_squad": 0.36092694186359153,
+  "partial_metro": 0.7466056945626149
+ }
+}
