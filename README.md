@@ -32,6 +32,8 @@ Supporting evidence: a white-box universal-suffix attack cuts a single-layer pro
 Adversarial training of the probes (Qwen2.5-0.5B, two rounds) stops a fresh same-budget attack in round 2 (100%
 caught), but harmless documents carrying the new suffix are then flagged 47% of the time.
 
+**Figures:** nine result graphs, each with an explanation, in [`figures/`](figures/README.md).
+
 Full write-up: `repro/report/`. Every experiment, its question, scripts, jobs, outputs and result: `repro/EXPERIMENTS.md`.
 
 ## Layout
