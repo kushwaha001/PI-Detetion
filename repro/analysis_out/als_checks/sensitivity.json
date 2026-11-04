@@ -1,0 +1,470 @@
+{
+ "qwen2.5-0.5b/final": {
+  "best_squad": 16,
+  "best_bipia": 14,
+  "paper": {
+   "layer": 1,
+   "squad_regret": 0.27677656249999993,
+   "bipia_regret": 0.32423888888888897
+  },
+  "eps=0.02": {
+   "layer": 20,
+   "squad_regret": 0.06259218749999995,
+   "bipia_regret": 0.11181111111111108
+  },
+  "eps=0.05": {
+   "layer": 20,
+   "squad_regret": 0.06259218749999995,
+   "bipia_regret": 0.11181111111111108
+  },
+  "eps=0.10": {
+   "layer": 14,
+   "squad_regret": 0.003234895833333251,
+   "bipia_regret": 0.0
+  },
+  "eps=0.15": {
+   "layer": 14,
+   "squad_regret": 0.003234895833333251,
+   "bipia_regret": 0.0
+  },
+  "eps=0.20": {
+   "layer": 14,
+   "squad_regret": 0.003234895833333251,
+   "bipia_regret": 0.0
+  },
+  "eps=0.30": {
+   "layer": 14,
+   "squad_regret": 0.003234895833333251,
+   "bipia_regret": 0.0
+  }
+ },
+ "qwen2.5-0.5b/delta": {
+  "best_squad": 14,
+  "best_bipia": 14,
+  "paper": {
+   "layer": 1,
+   "squad_regret": 0.28391822916666665,
+   "bipia_regret": 0.30537777777777797
+  },
+  "eps=0.02": {
+   "layer": 20,
+   "squad_regret": 0.05050989583333343,
+   "bipia_regret": 0.09092222222222224
+  },
+  "eps=0.05": {
+   "layer": 20,
+   "squad_regret": 0.05050989583333343,
+   "bipia_regret": 0.09092222222222224
+  },
+  "eps=0.10": {
+   "layer": 14,
+   "squad_regret": 0.0,
+   "bipia_regret": 0.0
+  },
+  "eps=0.15": {
+   "layer": 14,
+   "squad_regret": 0.0,
+   "bipia_regret": 0.0
+  },
+  "eps=0.20": {
+   "layer": 10,
+   "squad_regret": 0.08474739583333346,
+   "bipia_regret": 0.2247055555555557
+  },
+  "eps=0.30": {
+   "layer": 5,
+   "squad_regret": 0.15523333333333345,
+   "bipia_regret": 0.16038333333333354
+  }
+ },
+ "qwen2.5-1.5b/final": {
+  "best_squad": 18,
+  "best_bipia": 17,
+  "paper": {
+   "layer": 2,
+   "squad_regret": 0.21430364583333328,
+   "bipia_regret": 0.3378444444444444
+  },
+  "eps=0.02": {
+   "layer": 27,
+   "squad_regret": 0.10621249999999993,
+   "bipia_regret": 0.08029999999999993
+  },
+  "eps=0.05": {
+   "layer": 17,
+   "squad_regret": 0.0022526041666667274,
+   "bipia_regret": 0.0
+  },
+  "eps=0.10": {
+   "layer": 17,
+   "squad_regret": 0.0022526041666667274,
+   "bipia_regret": 0.0
+  },
+  "eps=0.15": {
+   "layer": 14,
+   "squad_regret": 0.011069791666666773,
+   "bipia_regret": 0.04517222222222217
+  },
+  "eps=0.20": {
+   "layer": 14,
+   "squad_regret": 0.011069791666666773,
+   "bipia_regret": 0.04517222222222217
+  },
+  "eps=0.30": {
+   "layer": 11,
+   "squad_regret": 0.026035416666666755,
+   "bipia_regret": 0.16344999999999987
+  }
+ },
+ "qwen2.5-1.5b/delta": {
+  "best_squad": 18,
+  "best_bipia": 17,
+  "paper": {
+   "layer": 2,
+   "squad_regret": 0.21699895833333327,
+   "bipia_regret": 0.3579333333333332
+  },
+  "eps=0.02": {
+   "layer": 27,
+   "squad_regret": 0.09856406250000005,
+   "bipia_regret": 0.07698888888888877
+  },
+  "eps=0.05": {
+   "layer": 17,
+   "squad_regret": 0.0017635416666665904,
+   "bipia_regret": 0.0
+  },
+  "eps=0.10": {
+   "layer": 17,
+   "squad_regret": 0.0017635416666665904,
+   "bipia_regret": 0.0
+  },
+  "eps=0.15": {
+   "layer": 14,
+   "squad_regret": 0.007120312500000003,
+   "bipia_regret": 0.042816666666666614
+  },
+  "eps=0.20": {
+   "layer": 11,
+   "squad_regret": 0.03353281249999984,
+   "bipia_regret": 0.15768333333333318
+  },
+  "eps=0.30": {
+   "layer": 9,
+   "squad_regret": 0.10486666666666666,
+   "bipia_regret": 0.21687777777777772
+  }
+ },
+ "qwen2.5-3b/final": {
+  "best_squad": 20,
+  "best_bipia": 21,
+  "paper": {
+   "layer": 10,
+   "squad_regret": 0.08919375000000018,
+   "bipia_regret": 0.23391111111111107
+  },
+  "eps=0.02": {
+   "layer": 26,
+   "squad_regret": 0.002658333333333318,
+   "bipia_regret": 0.031338888888888916
+  },
+  "eps=0.05": {
+   "layer": 26,
+   "squad_regret": 0.002658333333333318,
+   "bipia_regret": 0.031338888888888916
+  },
+  "eps=0.10": {
+   "layer": 26,
+   "squad_regret": 0.002658333333333318,
+   "bipia_regret": 0.031338888888888916
+  },
+  "eps=0.15": {
+   "layer": 26,
+   "squad_regret": 0.002658333333333318,
+   "bipia_regret": 0.031338888888888916
+  },
+  "eps=0.20": {
+   "layer": 26,
+   "squad_regret": 0.002658333333333318,
+   "bipia_regret": 0.031338888888888916
+  },
+  "eps=0.30": {
+   "layer": 10,
+   "squad_regret": 0.08919375000000018,
+   "bipia_regret": 0.23391111111111107
+  }
+ },
+ "qwen2.5-3b/delta": {
+  "best_squad": 24,
+  "best_bipia": 21,
+  "paper": {
+   "layer": 4,
+   "squad_regret": 0.1884583333333334,
+   "bipia_regret": 0.2725222222222221
+  },
+  "eps=0.02": {
+   "layer": 26,
+   "squad_regret": 0.002706250000000132,
+   "bipia_regret": 0.04179999999999995
+  },
+  "eps=0.05": {
+   "layer": 26,
+   "squad_regret": 0.002706250000000132,
+   "bipia_regret": 0.04179999999999995
+  },
+  "eps=0.10": {
+   "layer": 26,
+   "squad_regret": 0.002706250000000132,
+   "bipia_regret": 0.04179999999999995
+  },
+  "eps=0.15": {
+   "layer": 4,
+   "squad_regret": 0.1884583333333334,
+   "bipia_regret": 0.2725222222222221
+  },
+  "eps=0.20": {
+   "layer": 4,
+   "squad_regret": 0.1884583333333334,
+   "bipia_regret": 0.2725222222222221
+  },
+  "eps=0.30": {
+   "layer": 4,
+   "squad_regret": 0.1884583333333334,
+   "bipia_regret": 0.2725222222222221
+  }
+ },
+ "qwen2.5-7b/final": {
+  "best_squad": 13,
+  "best_bipia": 17,
+  "paper": {
+   "layer": 2,
+   "squad_regret": 0.3137500000000001,
+   "bipia_regret": 0.3304444444444443
+  },
+  "eps=0.02": {
+   "layer": 19,
+   "squad_regret": 0.10411458333333323,
+   "bipia_regret": 0.0377777777777778
+  },
+  "eps=0.05": {
+   "layer": 19,
+   "squad_regret": 0.10411458333333323,
+   "bipia_regret": 0.0377777777777778
+  },
+  "eps=0.10": {
+   "layer": 19,
+   "squad_regret": 0.10411458333333323,
+   "bipia_regret": 0.0377777777777778
+  },
+  "eps=0.15": {
+   "layer": 19,
+   "squad_regret": 0.10411458333333323,
+   "bipia_regret": 0.0377777777777778
+  },
+  "eps=0.20": {
+   "layer": 14,
+   "squad_regret": 0.09052083333333338,
+   "bipia_regret": 0.010438888888888886
+  },
+  "eps=0.30": {
+   "layer": 10,
+   "squad_regret": 0.1451041666666666,
+   "bipia_regret": 0.11965555555555552
+  }
+ },
+ "qwen2.5-7b/delta": {
+  "best_squad": 17,
+  "best_bipia": 17,
+  "paper": {
+   "layer": 1,
+   "squad_regret": 0.2997916666666667,
+   "bipia_regret": 0.36134444444444447
+  },
+  "eps=0.02": {
+   "layer": 19,
+   "squad_regret": 0.017395833333333388,
+   "bipia_regret": 0.05296666666666672
+  },
+  "eps=0.05": {
+   "layer": 19,
+   "squad_regret": 0.017395833333333388,
+   "bipia_regret": 0.05296666666666672
+  },
+  "eps=0.10": {
+   "layer": 19,
+   "squad_regret": 0.017395833333333388,
+   "bipia_regret": 0.05296666666666672
+  },
+  "eps=0.15": {
+   "layer": 19,
+   "squad_regret": 0.017395833333333388,
+   "bipia_regret": 0.05296666666666672
+  },
+  "eps=0.20": {
+   "layer": 14,
+   "squad_regret": 0.04526041666666669,
+   "bipia_regret": 0.012488888888888772
+  },
+  "eps=0.30": {
+   "layer": 10,
+   "squad_regret": 0.06307291666666681,
+   "bipia_regret": 0.12839444444444437
+  }
+ },
+ "tinyllama-1.1b/final": {
+  "best_squad": 16,
+  "best_bipia": 20,
+  "paper": {
+   "layer": 1,
+   "squad_regret": 0.2560447916666667,
+   "bipia_regret": 0.1754055555555556
+  },
+  "eps=0.02": {
+   "layer": 13,
+   "squad_regret": 0.07193177083333335,
+   "bipia_regret": 0.08910000000000007
+  },
+  "eps=0.05": {
+   "layer": 13,
+   "squad_regret": 0.07193177083333335,
+   "bipia_regret": 0.08910000000000007
+  },
+  "eps=0.10": {
+   "layer": 13,
+   "squad_regret": 0.07193177083333335,
+   "bipia_regret": 0.08910000000000007
+  },
+  "eps=0.15": {
+   "layer": 13,
+   "squad_regret": 0.07193177083333335,
+   "bipia_regret": 0.08910000000000007
+  },
+  "eps=0.20": {
+   "layer": 13,
+   "squad_regret": 0.07193177083333335,
+   "bipia_regret": 0.08910000000000007
+  },
+  "eps=0.30": {
+   "layer": 13,
+   "squad_regret": 0.07193177083333335,
+   "bipia_regret": 0.08910000000000007
+  }
+ },
+ "tinyllama-1.1b/delta": {
+  "best_squad": 14,
+  "best_bipia": 17,
+  "paper": {
+   "layer": 2,
+   "squad_regret": 0.25941041666666675,
+   "bipia_regret": 0.15717777777777797
+  },
+  "eps=0.02": {
+   "layer": 11,
+   "squad_regret": 0.0820109375000001,
+   "bipia_regret": 0.04490555555555564
+  },
+  "eps=0.05": {
+   "layer": 11,
+   "squad_regret": 0.0820109375000001,
+   "bipia_regret": 0.04490555555555564
+  },
+  "eps=0.10": {
+   "layer": 11,
+   "squad_regret": 0.0820109375000001,
+   "bipia_regret": 0.04490555555555564
+  },
+  "eps=0.15": {
+   "layer": 11,
+   "squad_regret": 0.0820109375000001,
+   "bipia_regret": 0.04490555555555564
+  },
+  "eps=0.20": {
+   "layer": 11,
+   "squad_regret": 0.0820109375000001,
+   "bipia_regret": 0.04490555555555564
+  },
+  "eps=0.30": {
+   "layer": 8,
+   "squad_regret": 0.15706302083333334,
+   "bipia_regret": 0.08886111111111117
+  }
+ },
+ "olmo2-1b/final": {
+  "best_squad": 9,
+  "best_bipia": 10,
+  "paper": {
+   "layer": 1,
+   "squad_regret": 0.2765588541666665,
+   "bipia_regret": 0.1718833333333334
+  },
+  "eps=0.02": {
+   "layer": 11,
+   "squad_regret": 0.02888177083333332,
+   "bipia_regret": 0.014561111111111025
+  },
+  "eps=0.05": {
+   "layer": 11,
+   "squad_regret": 0.02888177083333332,
+   "bipia_regret": 0.014561111111111025
+  },
+  "eps=0.10": {
+   "layer": 11,
+   "squad_regret": 0.02888177083333332,
+   "bipia_regret": 0.014561111111111025
+  },
+  "eps=0.15": {
+   "layer": 11,
+   "squad_regret": 0.02888177083333332,
+   "bipia_regret": 0.014561111111111025
+  },
+  "eps=0.20": {
+   "layer": 11,
+   "squad_regret": 0.02888177083333332,
+   "bipia_regret": 0.014561111111111025
+  },
+  "eps=0.30": {
+   "layer": 11,
+   "squad_regret": 0.02888177083333332,
+   "bipia_regret": 0.014561111111111025
+  }
+ },
+ "olmo2-1b/delta": {
+  "best_squad": 9,
+  "best_bipia": 8,
+  "paper": {
+   "layer": 11,
+   "squad_regret": 0.013568229166666779,
+   "bipia_regret": 0.021066666666666678
+  },
+  "eps=0.02": {
+   "layer": 11,
+   "squad_regret": 0.013568229166666779,
+   "bipia_regret": 0.021066666666666678
+  },
+  "eps=0.05": {
+   "layer": 11,
+   "squad_regret": 0.013568229166666779,
+   "bipia_regret": 0.021066666666666678
+  },
+  "eps=0.10": {
+   "layer": 11,
+   "squad_regret": 0.013568229166666779,
+   "bipia_regret": 0.021066666666666678
+  },
+  "eps=0.15": {
+   "layer": 11,
+   "squad_regret": 0.013568229166666779,
+   "bipia_regret": 0.021066666666666678
+  },
+  "eps=0.20": {
+   "layer": 11,
+   "squad_regret": 0.013568229166666779,
+   "bipia_regret": 0.021066666666666678
+  },
+  "eps=0.30": {
+   "layer": 4,
+   "squad_regret": 0.07087968749999995,
+   "bipia_regret": 0.07616666666666672
+  }
+ }
+}
